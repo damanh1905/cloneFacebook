@@ -1,0 +1,25 @@
+@import "../../styles/config";
+.main {
+  width: 50%;
+  height: 100%;
+  margin-top: 7rem;
+}
+.stories-item {
+  width: 80%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+.create {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.showPost {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}

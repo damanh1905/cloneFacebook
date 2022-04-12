@@ -1,0 +1,101 @@
+@import "../../../styles/config";
+.show {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 2rem 3rem;
+  background: $color-white;
+  border-radius: 10px;
+  margin-top: 3rem;
+// padding-top: 3rem;
+}
+.show__header {
+  display: flex;
+  position: relative;
+}
+.show__header-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.show__header-img-user {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.show__header-name {
+  padding-left: 1rem;
+}
+.show__header-fullname {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.show__header-day {
+  color: silver;
+}
+.show__header-dots {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show__header-dots:hover {
+  background-color: silver;
+}
+.show-dots {
+  margin-top: -1.5rem;
+}
+.show__body {
+  padding-top: 3rem;
+  height: 50rem;
+}
+.show__body-img {
+  padding-top: 3rem;
+  width: 100%;
+  height: 90%;
+  margin: auto;
+
+  overflow: hidden;
+}
+.show__body-bottom-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.show__body-text {
+  font-size: 1.2rem;
+}
+
+.show__reaction {
+  display: flex;
+  height: 1rem;
+//   background-color: green;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.show__reaction-section {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+
+}
+.show__reaction-section-icon {
+  color: silver;
+  font-size: 2.5rem;
+}
+.show__reaction-section-content {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.green {
+  color: green;
+}

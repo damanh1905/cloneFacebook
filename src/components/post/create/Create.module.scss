@@ -1,0 +1,69 @@
+@import "../../../styles/config";
+.create {
+  width: 100%;
+  background-color: $color-white;
+  height: 20rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.create__container {
+  width: 90%;
+  height: 90%;
+}
+.create__container-top {
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.create__container-img {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.create-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.create__container-input {
+  width: 90%;
+  height: 45%;
+  padding: 1.4rem 1.5rem;
+  border-radius: 20px;
+  outline: none;
+  background: #f0f2f5;
+  margin-left: 1rem;
+  border: none;
+}
+.create__container-bottom {
+  display: flex;
+  height: 50%;
+  // background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+.create__container-section {
+  width: 33%;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create__container-section-icon {
+  color: $color-pr-1;
+  font-size: 2.5rem;
+}
+.create__container-section-content {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.green {
+  color: green;
+}

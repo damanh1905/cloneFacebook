@@ -1,0 +1,111 @@
+@import "../../styles/config";
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 7rem;
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px $color-box-shadow;
+  padding: 0 3rem;
+}
+.navbar__first {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.navbar__first-logo {
+  width: 20%;
+}
+.navbar-logo {
+  font-size: 4rem;
+  color: $color-logo-blue;
+}
+.navbar__first-search {
+  width: 80%;
+  position: relative;
+}
+.navbar__first-searchbar {
+  width: 100%;
+  border: none;
+  padding: 1.5rem 4.5rem;
+  outline: none;
+  background-color: $color-searchbar-white;
+  border-radius: 3rem;
+}
+.navbar__searchIcon {
+  position: absolute;
+  top: 1.3rem;
+  left: 2rem;
+  font-size: 2rem;
+  color: silver;
+}
+.navbar__middle {
+  width: 50%;
+  padding: 0 9rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.navbarmiddle {
+  display: inline-block;
+  position: relative;
+}
+
+.navbar__middle-icon {
+  font-size: 2.5rem;
+  color: $color-middle-icon;
+}
+.navbar__notify {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -1rem;
+  left: 1.3rem;
+  background-color: #f1327b;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: $color-white;
+  font-size: 1.2rem;
+}
+.navbar__last {
+  width: 30%;
+  padding: 0 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__last-section {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.navbar__last-icon {
+  font-size: 1.7rem;
+}
+.navbar__last-section-img {
+  display: flex;
+  width: 9.5rem;
+  height: 3.5rem;
+  justify-content: center;
+
+  align-items: center;
+}
+.navbar__last-icon-img {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  // overflow: hidden;
+}
+.navbar__last-user {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
