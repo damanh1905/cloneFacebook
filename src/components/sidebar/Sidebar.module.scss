@@ -2,7 +2,27 @@
 .side {
   width: 22%;
   top: 9rem;
-  margin-top: 9rem;
+  // margin-top: 9rem;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: fixed;
+
+}
+.side::-webkit-scrollbar{
+  width: 10px;
+  display: none;
+}
+.side:hover::-webkit-scrollbar{
+  width: 10px;
+  display: block;
+}
+.side::-webkit-scrollbar-track{
+  background-color: #ccc;
+}
+.side::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom,#7b7477,#9ba0a2);
+  border-radius: 20px;
 }
 
 .side__list {
@@ -32,4 +52,28 @@
 .side__list-name {
   font-size: 1.5rem;
   padding-left: 2rem;
+}
+.side__listbox{
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side__list-icon{
+  font-size: 1.5rem;
+  color: rgb(62, 55, 55);
+}
+.side__list-shortcut{
+  height: 50%;
+}
+.side__list-title{
+  font-size: 1.5rem;
+  color: rgb(53, 45, 45);
+  height: 3.5rem;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+
 }

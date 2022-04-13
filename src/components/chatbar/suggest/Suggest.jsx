@@ -40,19 +40,19 @@ function Suggest() {
       describe: "property pariatur pariatur Unknown word.cSpell expected",
     },
   ]);
-  const [url, setUrl] = useState({
-    id: url,
-  });
-  useEffect(() => {
-    setTimeout(() => {
-      let index = Math.trunc(Math.random() * randomImg.length);
-      if (url.id !== index) {
-        setUrl(randomImg[index].imgUrl);
-      }else{
-        index = Math.trunc(Math.random() * randomImg.length);
-      }
-    }, 2000);
-  });
+  // const [url, setUrl] = useState({
+  //   id: url,
+  // });
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     let index = Math.trunc(Math.random() * randomImg.length);
+  //     if (url.id !== index) {
+  //       setUrl(randomImg[index].imgUrl);
+  //     }else{
+  //       index = Math.trunc(Math.random() * randomImg.length);
+  //     }
+  //   }, 2000);
+  // });
 
   return (
     <div className={style.suggest}>
@@ -69,7 +69,7 @@ function Suggest() {
       </div>
       <div className={style["suggest__body"]}>
         <div className={style["suggest__body-boximg"]}>
-          <img src={url} alt="img" className={style["suggest__body-img"]} />
+          <img src={randomImg[0].imgUrl} alt="img" className={style["suggest__body-img"]} />
         </div>
         <div className={style["suggest__body-text"]}>Siêu nhân vũ trụ</div>
       </div>

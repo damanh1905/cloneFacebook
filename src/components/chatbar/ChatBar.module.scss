@@ -1,5 +1,26 @@
 .chat{
-    width: 28%;
+    width: 27%;
     margin-top: 7rem;
     // background-color: red;
+    position: fixed;
+    margin-left: 72%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
 }
+.chat::-webkit-scrollbar{
+    width: 10px;
+    
+  }
+  .chat:hover::-webkit-scrollbar{
+    width: 10px;
+    display: block;
+  }
+  .side.chat::-webkit-scrollbar-track{
+    background-color: #ccc;
+  }
+  
+  .chat:hover::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom,#7b7477,#9ba0a2);
+    border-radius: 20px;
+  }
